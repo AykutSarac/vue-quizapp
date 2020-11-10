@@ -6,7 +6,7 @@
 </div>
 
 ## Introduction
-At the third day of learning Vue, I made a quiz app without following any tutorial. To see my capabilities in that three days,, I decided to do build a project myself hereby everything including the design made based on my knowledge.
+At the third day of learning Vue, I made a quiz app without following any tutorial. To see my capabilities in that three days, I decided to do build a project myself hereby everything including the design made based on my knowledge. For the design part, I've applied mobile-first technique.
 
 I have used [Vuex](https://www.npmjs.com/package/vuex) to share data between components and [Open Trivia API](https://opentdb.com/) to get quiz questions.
 
@@ -24,8 +24,4 @@ $ npm run serve
 
 ## **License**
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [`LICENSE`](#license) file for details.
-
-
-
-
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [`LICENSE`](https://github.com/AykutSarac/vue-quizapp/blob/master/LICENSE) file for details.

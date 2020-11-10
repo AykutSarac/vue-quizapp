@@ -68,9 +68,13 @@ export default {
 
   .quiz {
 
+    @media only screen and (max-width: 768px) {
+      margin: 1rem;
+    }
+
     color: white;
     background: rgba(247, 0, 255, 0.616);
-    margin: 5rem auto 0 auto;
+    margin: 3rem auto 0 auto;
     border-radius: 10px;
     display: flex;
     font-family: sans-serif;
@@ -93,6 +97,11 @@ export default {
   }
 
   .options {
+
+      @media only screen and (max-width: 768px) {
+            margin: 3rem;
+          }
+
       background-color: rgba(0, 214, 178, 0.726);
       border: 2px yellow solid;
       border-radius: 10px;
@@ -132,6 +141,11 @@ export default {
     }
 
     #next {
+
+      @media only screen and (max-width: 768px) {
+            margin-top: 0;
+          }
+
       margin-left: 65%;
       outline-style: none;
       border-radius: 10px;
