@@ -54,6 +54,7 @@ export default {
 
         if (this.$data.current !== 4) {
           this.current += 1;
+          this.answer = -1;
         } else {
           alert("Game Over! You finished the game with " + this.$data.pts + " pts!");
           window.location.reload();
