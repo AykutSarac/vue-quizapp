@@ -23,11 +23,38 @@ export default {
     question() {
       axios.get("https://opentdb.com/api.php?amount=5").then(d => {
         const quiz = d.data.results.map(data => {
+
+          function decodeHtml(html) {
+              var txt = document.createElement("textarea");
+              txt.innerHTML = html;
+              return txt.value;
+          }
+
+          function shuffle(originalArray) {
+            var array = [].concat(originalArray);
+            var currentIndex = array.length, temporaryValue, randomIndex;
+
+            // While there remain elements to shuffle...
+            while (0 !== currentIndex) {
+
+              // Pick a remaining element...
+              randomIndex = Math.floor(Math.random() * currentIndex);
+              currentIndex -= 1;
+
+              // And swap it with the current element.
+              temporaryValue = array[currentIndex];
+              array[currentIndex] = array[randomIndex];
+              array[randomIndex] = temporaryValue;
+            }
+
+            return array;
+          }
+
           const opts = data.incorrect_answers;
           opts.push(data.correct_answer);
           return {
-            question: data.question,
-            options: opts,
+            question: decodeHtml(data.question),
+            options: shuffle(opts),
             answer: data.correct_answer
           }
         });
@@ -53,7 +80,6 @@ export default {
     background-attachment: fixed;
     background-repeat: no-repeat;
     justify-content: center;
-    text-align: center;
   }
 
   #start {
