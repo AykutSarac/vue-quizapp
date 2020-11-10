@@ -2,7 +2,7 @@
 <h2>Quiz App</h2>
 <img src="https://img.shields.io/badge/build-passing-green.svg">
 <img src="https://img.shields.io/badge/license-MIT-green.svg">
-<img src="https://camo.githubusercontent.com/93e5d9cc433f49122b0b4ea81910cc91ed82aef9/68747470733a2f2f696f6e69636162697a61752e6769746875622e696f2f6261646765732f70617472656f6e2e737667" href="patreon.com/phemus">
+<a href="https://patreon.com/phemus"><img src="https://camo.githubusercontent.com/93e5d9cc433f49122b0b4ea81910cc91ed82aef9/68747470733a2f2f696f6e69636162697a61752e6769746875622e696f2f6261646765732f70617472656f6e2e737667"></a>
 </div>
 
 ## Introduction
