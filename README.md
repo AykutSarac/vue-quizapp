@@ -1,24 +1,31 @@
-# vue-quizapp
+<div align="center">
+<h2>Quiz App</h2>
+<img src="https://img.shields.io/badge/build-passing-green.svg">
+<img src="https://img.shields.io/badge/license-MIT-green.svg">
+<img src="https://camo.githubusercontent.com/93e5d9cc433f49122b0b4ea81910cc91ed82aef9/68747470733a2f2f696f6e69636162697a61752e6769746875622e696f2f6261646765732f70617472656f6e2e737667" href="patreon.com/phemus">
+</div>
 
-## Project setup
+## Introduction
+At the third day of learning Vue, I made a quiz app without following any tutorial. To see my capabilities in that three days,, I decided to do build a project myself hereby everything including the design made based on my knowledge.
+
+I have used [Vuex](https://www.npmjs.com/package/vuex) to share data between components and [Open Trivia API](https://opentdb.com/) to get quiz questions.
+
+![preview](https://i.ibb.co/9VNSZgb/Ekran-g-r-nt-s-2020-11-10-122412.jpg)
+
+## Installation
+- Install dependencies
 ```
-npm install
+$ npm install
+```
+- Run it
+```
+$ npm run serve
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## **License**
 
-### Compiles and minifies for production
-```
-npm run build
-```
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [`LICENSE`](#license) file for details.
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
