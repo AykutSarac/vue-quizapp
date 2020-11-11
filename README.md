@@ -12,6 +12,10 @@ I have used [Vuex](https://www.npmjs.com/package/vuex) to share data between com
 
 ![preview](https://i.ibb.co/9VNSZgb/Ekran-g-r-nt-s-2020-11-10-122412.jpg)
 
+# Live Demo
+
+Check out the demo [here](https://aykutsarac.github.io/vuequiz/)
+
 ## Installation
 - Install dependencies
 ```
