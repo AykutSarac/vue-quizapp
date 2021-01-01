@@ -14,7 +14,7 @@ I have used [Vuex](https://www.npmjs.com/package/vuex) to share data between com
 
 # Live Demo
 
-Check out the demo [here](https://aykutsarac.github.io/vuequiz/)
+Check out the demo [here](https://aykutsarac.github.io/vue-quizapp/)
 
 ## Installation
 - Install dependencies
